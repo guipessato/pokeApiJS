@@ -1,0 +1,49 @@
+.form-pokemon
+    background: color3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 350px;
+    min-height: 300px;
+    margin: auto;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
+
+    img
+        margin: 15px auto 30px;
+        max-width: 250px;
+        height: auto;
+
+    input[type=text]&__input
+        border: 2px solid transparent;
+        border-radius: 5px;
+        transition: transition;
+
+        &:focus
+            box-shadow: 0 0 8px 3px color1;
+            transition: transition;
+
+    &__search
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: color1;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        border: 0;
+        color: colorWhite;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 15px;
+        transition: transition;
+
+        &:hover
+            box-shadow: 0 0 8px 3px color1;
+
+        svg
+            margin-right: 10px;
+            width: 15px;
+            height: 15px
+            fill: colorWhite;

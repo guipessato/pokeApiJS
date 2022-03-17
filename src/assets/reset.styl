@@ -1,0 +1,90 @@
+// ******************************************************************
+// Site Name: Base Desenvolvimento
+// Author: Guilherme José Pessato
+// 
+
+// Stylesheet: Resets Default CSS
+// ******************************************************************/
+*
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+
+    &:focus
+        outline: none !important;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+html
+    border: 0;
+    font-size: 100%;
+
+body
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section
+    display: block;
+
+table
+    border-collapse: separate;
+    border-spacing: 0;
+
+caption, th, td
+    text-align: left;
+    font-weight: normal;
+    float: none !important;
+
+table, th, td
+    vertical-align: middle;
+
+blockquote before, blockquote after, q before, q after
+    content: '';
+
+a img
+    border: none;
+
+a
+    text-decoration: none;
+
+    &:hover
+        text-decoration: underline;
+
+img
+    max-width: 100%;
+    height: auto;
+
+ul
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+input, textarea, button, select
+    outline: none;
+    box-shadow: none;
+
+&::placeholder
+    &::focus
+        color: transparent;
+
+.banner-js
+    margin: 0;
+
+main, footer
+    max-width: 100%;
+    overflow: hidden;
